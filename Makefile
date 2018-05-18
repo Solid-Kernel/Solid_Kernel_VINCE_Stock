@@ -1,7 +1,7 @@
 VERSION = 3
 PATCHLEVEL = 18
 SUBLEVEL = 31
-EXTRAVERSION = Solid_Kernel-V1.0
+EXTRAVERSION = -Solid_Kernel-V2.6
 NAME = Shuffling Zombie Juror
 
 # *DOCUMENTATION*
@@ -249,6 +249,7 @@ SUBARCH := $(shell uname -m | sed -e s/i.86/x86/ -e s/x86_64/x86/ \
 # Default value for CROSS_COMPILE is not to prefix executables
 # Note: Some architectures assign CROSS_COMPILE in their arch/*/Makefile
 ARCH		?= arm64
+SUBARCH         ?= arm64
 CROSS_COMPILE	?= ../Toolchain/Linaro-4.9-aarch64/bin/aarch64-linux-gnu-
 
 # Architecture as present in compile.h
