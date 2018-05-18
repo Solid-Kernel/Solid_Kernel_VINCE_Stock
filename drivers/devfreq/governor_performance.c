@@ -13,7 +13,7 @@
 #include <linux/module.h>
 #include "governor.h"
 
-static int devfreq_performance_func(struct devfreq *df,
+static int devfreq_performance_func(struct devfreq *devfreq,
 				    unsigned long *freq,
 				u32 *flag)
 {
