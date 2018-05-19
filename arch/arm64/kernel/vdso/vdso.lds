@@ -1,7 +1,7 @@
 /*
  *
  * Automatically generated file; DO NOT EDIT.
- * Linux/arm64 3.18.31-Solid_Kernel-V2.6 Kernel Configuration
+ * Linux/arm64 3.18.32-Solid_Kernel-V2.6 Kernel Configuration
  *
  */
 /*

@@ -1,6 +1,6 @@
 VERSION = 3
 PATCHLEVEL = 18
-SUBLEVEL = 31
+SUBLEVEL = 32
 EXTRAVERSION = -Solid_Kernel-V2.6
 NAME = Shuffling Zombie Juror
 
