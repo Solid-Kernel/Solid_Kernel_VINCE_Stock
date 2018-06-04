@@ -464,6 +464,7 @@ struct ubi_debug_info {
  * @fm_buf: vmalloc()'d buffer which holds the raw fastmap
  * @fm_size: fastmap size in bytes
  * @fm_eba_sem: allows ubi_update_fastmap() to block EBA table changes
+ * @fast_attach: non-zero if UBI was attached by fastmap
  * @fm_work: fastmap work queue
  * @fm_work_scheduled: non-zero if fastmap work was scheduled
  *
@@ -574,6 +575,7 @@ struct ubi_device {
 	size_t fm_size;
 	struct work_struct fm_work;
 	int fm_work_scheduled;
+	int fast_attach
 
 	/* Wear-leveling sub-system's stuff */
 	struct rb_root used;
