@@ -77,5 +77,5 @@ TRACE_EVENT(
 
 /* This part must be outside protection */
 #undef TRACE_INCLUDE_PATH
-#define TRACE_INCLUDE_PATH /home/admin/Xiaomi_Kernel_OpenSource/drivers/net/ethernet/msm
+#define TRACE_INCLUDE_PATH /home/dario/Projects/Xiaomi_Kernel_OpenSource/drivers/net/ethernet/msm
 #include <trace/define_trace.h>
